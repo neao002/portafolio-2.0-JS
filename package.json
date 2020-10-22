@@ -1,0 +1,20 @@
+{
+  "name": "Portafolio19oct",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path style.scss css/style.css",
+    "watch-css":"nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
